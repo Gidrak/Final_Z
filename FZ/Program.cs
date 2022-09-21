@@ -2,6 +2,10 @@
 
 string[] str = CreatArray("Введите количесвто элементов массива: ");
 Console.Write("Заданный массив с длиной элементов <= 3: ");
+PrintArray(str);
+Console.Write(" -> ");
+string[] newStr = CreatNewArrayLessThreeElements(str);
+PrintArray(newStr);
 
 
 string[] CreatArray(string massage)
